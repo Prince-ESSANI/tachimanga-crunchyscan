@@ -1,0 +1,7 @@
+eu.tachimanga.crunchyscan-pngs-0 C:\Users\princ\Documents\tachimanga-crunchyscan\crunchyscan\build\generated\res\pngs\release
+eu.tachimanga.crunchyscan-resValues-1 C:\Users\princ\Documents\tachimanga-crunchyscan\crunchyscan\build\generated\res\resValues\release
+eu.tachimanga.crunchyscan-mergeReleaseResources-2 C:\Users\princ\Documents\tachimanga-crunchyscan\crunchyscan\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+eu.tachimanga.crunchyscan-mergeReleaseResources-3 C:\Users\princ\Documents\tachimanga-crunchyscan\crunchyscan\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+eu.tachimanga.crunchyscan-release-4 C:\Users\princ\Documents\tachimanga-crunchyscan\crunchyscan\build\intermediates\merged_res\release\mergeReleaseResources
+eu.tachimanga.crunchyscan-main-5 C:\Users\princ\Documents\tachimanga-crunchyscan\crunchyscan\src\main\res
+eu.tachimanga.crunchyscan-release-6 C:\Users\princ\Documents\tachimanga-crunchyscan\crunchyscan\src\release\res
