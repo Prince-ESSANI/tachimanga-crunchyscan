@@ -1,0 +1,39 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="eu.tachimanga.crunchyscan"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <application
+11-->C:\Users\princ\Documents\tachimanga-crunchyscan\crunchyscan\src\main\AndroidManifest.xml:4:5-17:19
+12        android:extractNativeLibs="true"
+13        android:label="CrunchyScan" >
+13-->C:\Users\princ\Documents\tachimanga-crunchyscan\crunchyscan\src\main\AndroidManifest.xml:5:9-36
+14
+15        <!-- Si tu as une icône, décommente et mets ton icône -->
+16        <!-- android:icon="@mipmap/ic_launcher" -->
+17
+18        <activity
+18-->C:\Users\princ\Documents\tachimanga-crunchyscan\crunchyscan\src\main\AndroidManifest.xml:9:9-16:20
+19            android:name="eu.tachimanga.crunchyscan.MainActivity"
+19-->C:\Users\princ\Documents\tachimanga-crunchyscan\crunchyscan\src\main\AndroidManifest.xml:10:13-41
+20            android:exported="true" >
+20-->C:\Users\princ\Documents\tachimanga-crunchyscan\crunchyscan\src\main\AndroidManifest.xml:11:13-36
+21            <intent-filter>
+21-->C:\Users\princ\Documents\tachimanga-crunchyscan\crunchyscan\src\main\AndroidManifest.xml:12:13-15:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->C:\Users\princ\Documents\tachimanga-crunchyscan\crunchyscan\src\main\AndroidManifest.xml:13:17-69
+22-->C:\Users\princ\Documents\tachimanga-crunchyscan\crunchyscan\src\main\AndroidManifest.xml:13:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->C:\Users\princ\Documents\tachimanga-crunchyscan\crunchyscan\src\main\AndroidManifest.xml:14:17-77
+24-->C:\Users\princ\Documents\tachimanga-crunchyscan\crunchyscan\src\main\AndroidManifest.xml:14:27-74
+25            </intent-filter>
+26        </activity>
+27    </application>
+28
+29</manifest>

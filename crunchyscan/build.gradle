@@ -1,5 +1,5 @@
 plugins {
-    id("com.android.library")
+    id("com.android.application") // <- changer library en application
     id("org.jetbrains.kotlin.android")
 }
 
@@ -8,7 +8,11 @@ android {
     compileSdk = 34
 
     defaultConfig {
+        applicationId "eu.tachimanga.crunchyscan" // nécessaire pour APK
         minSdk = 21
+        targetSdk = 34
+        versionCode = 1
+        versionName = "1.0.0"
     }
 
     compileOptions {
@@ -28,8 +32,8 @@ repositories {
 }
 
 dependencies {
-    compileOnly("com.github.tachiyomiorg:extensions-lib:1.4.0")
     implementation("org.jsoup:jsoup:1.15.4")
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
+    // Tu peux garder ou retirer extensions-lib si tu veux un APK autonome
+    compileOnly("com.github.tachiyomiorg:extensions-lib:1.4.0")
 }
-
